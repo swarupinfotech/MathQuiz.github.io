@@ -1,0 +1,106 @@
+/* ------------------------------
+---------PLEASE------------------
+---------UPVOTE------------------
+-------------------------------*/
+
+/* By Swarup Mahato */
+
+body {
+	font-family: Arial;
+	overflow: hidden;
+}
+.italic {
+	visibility: hidden;
+}
+#fit, .fic {
+	visibility: hidden;
+}
+button::not(list) {
+	width: 90px;
+	height: 25px;
+	border: solid black 1px;
+	border-radius: 0;
+	background-color: #e6e6e6;
+}
+button:hover::not(list){
+	border: solid #e6e6e6 2px;
+	background-color: black;
+	color: white;
+}
+#time {
+	width: 65px;
+	height: 65px;
+	border: solid black 1px;
+	background-color: #e6e6e6;
+	float: right;
+	font-size: 43px;
+}
+#headt {
+	font-size: 36px;
+}
+#write {
+	width: 200px;
+	height: 32px;
+	background-color: #e6e6e6;
+	border: solid black 1px;
+	font-size: 20px;
+	text-align: center;
+}
+#eno {
+	border-bottom: solid black 1px;
+}
+.list {
+	width: 25%;
+	height: 45px;
+	color: white;
+	background-color: #333;
+	margin: 5px;
+	font-size: 17px;
+}
+#exit {
+	width: 80px;
+	height: 40px;
+	background-color: #333;
+	border: solid black 1px;
+	border-radius: 3px;
+	text-align: center;
+	font-size: 19px;
+	color: white;
+}
+#apreciation {
+	font-weight: bold;
+	font-size: 19px;
+}
+#coolguy {
+	font-size: 15px
+}
+#clear {
+	width: 90px;
+}
+.op, .fic, #cb, #Multi{
+	display:flex;
+	justify-content:center ;
+	align-items:center ;
+	width:90%;
+	height:60px;
+	background-color:#3498bd;
+	color:white;
+}
+#cb {
+	font-size: 20px;
+}
+#Multi {
+	width: 70%;
+	background-color: #DE0090;
+	font-size: 17px;
+	border-color: #de0080;
+	border-width: 2px;
+	border-radius: 2px;
+}
+#was {
+	font-weight: bold;
+	font-size: 20px;
+}
+#cb {
+	border-color: transparent;
+}
